@@ -1,0 +1,14 @@
+.container-fluid {
+    width: 10%;
+    margin: auto;
+    height: 10%;
+}
+
+img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 100%; /* Ensure the image fills its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.p-bold{
+    font-weight: bold;
+}

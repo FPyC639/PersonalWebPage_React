@@ -1,0 +1,20 @@
+.p-indent10px {
+    text-indent: 20px;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+body {
+    background: rgba(255,255,255,.7);
+    background-image: url(atom.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    display:unset;
+}
+.Welcome-indent{
+    text-indent:10px;
+}

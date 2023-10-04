@@ -1,0 +1,39 @@
+.img-slider{
+    width:200px;
+    height:200px;
+}
+img{
+    align-content:center;
+}
+/* Custom CSS */
+#imageCarousel {
+    align-content:center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: red; /* Change background color of the buttons */
+    border: none; /* Remove the default button border */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: red; /* Change the color of the icons inside the buttons */
+}
+
+
+
+.carousel-item{
+    align-content:center;
+}
+.carousel-item active{
+    align-content:center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for slide captions */
+    color: white; /* Text color for slide captions */
+}
+
+body {
+}
