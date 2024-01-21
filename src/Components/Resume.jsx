@@ -6,7 +6,6 @@ const Resume = () => {
 
     return (
         <div className="Resume">
-            <h1>PDF Viewer</h1>
             <PDFViewer pdfUrl={pdfUrl} />
         </div>
     );

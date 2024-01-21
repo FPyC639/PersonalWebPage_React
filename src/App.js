@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
 import Resume from './Components/Resume';
 import MainPage from './Components/MainPage';
+import Projects from './Components/Projects';
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
                     <Route path="/" element={<MainPage />} /> {/* Use "element" instead of "component" */}
                     <Route path="/AboutMe" element={<AboutMe />} />
                     <Route path="/Resume" element={<Resume />} />
+                    <Route path="/Projects" element={<Projects /> } />
+                    <Route path="/jose_serra_resume.pdf"/>
                 </Routes>
             </Router>
         </>

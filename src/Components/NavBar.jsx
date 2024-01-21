@@ -22,11 +22,11 @@ function NavBar() {
                             Resume
                         </NavLink>
                     </li>
-                    {/*<li className="nav-item">*/}
-                    {/*    <NavLink exact to="/Vaccine" activeClassName="active" className="nav-links">*/}
-                    {/*        Projects*/}
-                    {/*    </NavLink>*/}
-                    {/*</li>*/}
+                    <li className="nav-item">
+                        <NavLink exact to="/Projects" activeClassName="active" className="nav-links">
+                            Projects
+                        </NavLink>
+                    </li>
                 </ul>
 
 
