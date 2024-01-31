@@ -15,6 +15,10 @@ function NavBar() {
                     Main Page
                 </NavLink>
 
+                <NavLink exact to="/ContactMe" className="nav-logo">
+                    Contact Me
+                </NavLink>
+
                 <ul className="nav-menu">
 
                     <li className="nav-item">
