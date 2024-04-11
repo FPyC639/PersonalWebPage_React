@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 const Projects = () => {
@@ -54,16 +54,16 @@ const Projects = () => {
                 <div className="col">
                     <ul>
                         <li>
-                            <a href="\Chapter4Section6VOPNumber1.html"> Variation of Parameters Example 1</a>
+                            <a href="\S1"> Variation of Parameters Example 1</a>
                         </li>
                         <li>
-                            <a href="\Chapter4Section6VOPNumber2.html"> Variation of Parameters Example 2</a>
+                            <a href="\S2"> Variation of Parameters Example 2</a>
                         </li>
                         <li>
-                            <a href="\Chapter4Section6VOPNumber3.html"> Variation of Parameters Example 3</a>
+                            <a href="\S3"> Variation of Parameters Example 3</a>
                         </li>
                         <li>
-                            <a href="\Chapter8Section2Number1.html"> Systems of Differential Equations</a>
+                            <a href="\S4"> Systems of Differential Equations</a>
                         </li>
                     </ul>
                 </div>
