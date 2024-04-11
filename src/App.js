@@ -8,7 +8,10 @@ import Resume from './Components/Resume';
 import MainPage from './Components/MainPage';
 import Projects from './Components/Projects';
 import ContactMe from './Components/ContactMe';
-
+import S1 from './Components/S1';
+import S2 from './Components/S2';
+import S3 from './Components/S3';
+import S4 from './Components/S4';
 
 function App() {
     return (
@@ -23,6 +26,10 @@ function App() {
                     <Route path="/Projects" element={<Projects /> } />
                     <Route path="/jose_serra_resume.pdf" />
                     <Route path="/ContactMe" element={<ContactMe />} />
+                    <Route path="/S1" element={<S1 />} />
+                    <Route path="/S2" element={<S2 />} />
+                    <Route path="/S3" element={<S3 />} />
+                    <Route path="/S4" element={<S4 />} />
                     <Route path="/Chapter4Section6VOPNumber1.html" />
                     <Route path="/Chapter4Section6VOPNumber2.html" />
                     <Route path="/Chapter4Section6VOPNumber3.html" />
