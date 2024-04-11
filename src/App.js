@@ -23,6 +23,10 @@ function App() {
                     <Route path="/Projects" element={<Projects /> } />
                     <Route path="/jose_serra_resume.pdf" />
                     <Route path="/ContactMe" element={<ContactMe />} />
+                    <Route path="/Chapter4Section6VOPNumber1.html" />
+                    <Route path="/Chapter4Section6VOPNumber2.html" />
+                    <Route path="/Chapter4Section6VOPNumber3.html" />
+                    <Route path="/Chapter8Section2Number1.html" />
                 </Routes>
             </Router>
         </>
