@@ -4,7 +4,7 @@ const S1 = () => {
     const html1 =  './Chapter4Section6VOPNumber1.html';
 
     return (
-        <div className="HTML1" style={{ position: 'relative', width: '100%', height: '100vh' }}>
+        <div className="HTML1" >
             <iframe src={html1}
                 style={{
                     position: 'absolute',
@@ -15,7 +15,9 @@ const S1 = () => {
                     width: '100%',
                     height: '100%',
                     border: 'none',
-                }}></iframe>
+                }}
+            title="S1"
+            ></iframe>
         </div>
     );
 };

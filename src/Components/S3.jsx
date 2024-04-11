@@ -4,7 +4,7 @@ const S3 = () => {
     const html1 = './Chapter4Section6VOPNumber3.html';
 
     return (
-        <div className="HTML1" style={{ position: 'relative', width: '100%', height: '100vh' }}>
+        <div className="HTML1" >
             <iframe src={html1}
             style={{
           position: 'absolute',
