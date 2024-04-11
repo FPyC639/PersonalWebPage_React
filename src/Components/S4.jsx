@@ -1,10 +1,10 @@
 import React from 'react';
 
 const S4 = () => {
-    const html1 = './Chapter8Section2VOPNumber1.html';
+    const html1 =  './Chapter8Section2VOPNumber1.html';
 
     return (
-        <div className="HTML1">
+        <div className="HTML1" style={{ position: 'relative', width: '100%', height: '100vh' }}>
             <iframe src={html1}
                 style={{
                     position: 'absolute',
