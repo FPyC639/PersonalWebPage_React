@@ -15,6 +15,7 @@ const HTMLViewer = ({ htmlUrl }) => {
                     height: '100%',
                     border: 'none',
                 }}
+                sandbox="allow-scripts allow-same-origin"
                 title="HTML Content"
             />
         </div>
