@@ -30,10 +30,10 @@ function App() {
                     <Route path="/S2" element={<S2 />} />
                     <Route path="/S3" element={<S3 />} />
                     <Route path="/S4" element={<S4 />} />
-                    <Route path="/Chapter4Section6VOPNumber1.html" />
-                    <Route path="/Chapter4Section6VOPNumber2.html" />
-                    <Route path="/Chapter4Section6VOPNumber3.html" />
-                    <Route path="/Chapter8Section2Number1.html" />
+                    <Route path="../Chapter4Section6VOPNumber1.html" />
+                    <Route path="../Chapter4Section6VOPNumber2.html" />
+                    <Route path="../Chapter4Section6VOPNumber3.html" />
+                    <Route path="../Chapter8Section2Number1.html" />
                 </Routes>
             </Router>
         </>
