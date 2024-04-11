@@ -9,6 +9,7 @@ import MainPage from './Components/MainPage';
 import Projects from './Components/Projects';
 import ContactMe from './Components/ContactMe';
 
+
 function App() {
     return (
         <>
@@ -21,7 +22,7 @@ function App() {
                     <Route path="/Resume" element={<Resume />} />
                     <Route path="/Projects" element={<Projects /> } />
                     <Route path="/jose_serra_resume.pdf" />
-                    <Route path="/ContactMe" element={<ContactMe /> }/>
+                    <Route path="/ContactMe" element={<ContactMe />} />
                 </Routes>
             </Router>
         </>

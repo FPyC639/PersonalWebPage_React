@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Homework Differential Equations </title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+    MathJax = {
+        tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+<h1>Chapter 4.7 Variation of Parameters</h1>
+<h2>Number 2</h2>
+<p>The problem statement is the following:</p>
+<p>\begin{equation} y''+ y =\tan(x)  \end{equation}</p>
+<p>Now one can refer to the auxiliary eqaution to get the associated homogenous:</p>
+<p>\begin{align*}m^2+1&=0 \\ m^2&=-1 \\ m=\pm i \end{align*}</p>
+<p>From here we get the homogenous part of our solution which is the following:</p>
+<p>\begin{equation}y_h=c_1\cos(x)+c_2\sin(x)\end{equation}</p>
+<p>Now we can setup the Wronskian for the problem, based of the homogeous part, and nonhomgenous part:</p>
+<p>\begin{align*}W&= \begin{vmatrix}\cos(x) & \sin(x) \\ -\sin(x) & \cos(x) \end{vmatrix} \\ W&=\cos^2(x)+\sin^2(x)=1 \end{align*}</p>
+<p>Unlike in problem 1, this one will be solved using the Wronskians:</p>
+<p>\begin{align*}u'_1(x)&=\frac{W_1}{W}=\frac{\begin{vmatrix}0 & \sin(x) \\ \tan(x) & \cos(x) \end{vmatrix} }{1} \\ &=-\tan(x)\sin(x)  \end{align*}</p>
+<p>Now integrating $u'_1(x)$</p>
+<p>\begin{align*} \int \frac{-\sin^2(x)}{\cos(x)}dx&=\int -\frac{(1-\cos^2(x)}{\cos(x)} \\ \int -(\sec(x)-\cos(x)) dx &= -\ln{(\lvert \sec(x)+\tan(x) \rvert)}+\sin(x) \end{align*}</p>
+<p>The next part of the problem to do is solve for $u'_2$ by setting up the next Wronskian:</p>
+<p>\begin{align*}u'_2(x) &= \frac{W_2}{W}=\frac{\begin{vmatrix}\cos(x) & 0 \\ -\sin(x) & \tan(x) \end{vmatrix}}{1}\\&=\sin(x)\end{align*}</p>
+<p>\begin{equation}u_2(x)=\int u'_2 \ dx = \int \sin(x) dx = -\cos(x)\end{equation}</p>
+<p>\begin{equation}y_p=y_1u_1+y_2u_2=\cos(x)(\sin(x)-\ln{(\lvert \sec(x) + \tan(x) \rvert)}+\cos(x)\sin(x)\end{equation}</p>
+<p>Therefore that means then that the solution to the whole equation is the particular plus the homogenous:</p>
+<p>\begin{equation}y=y_p+y_h= c_1\cos(x)+c_2\sin(x)+\cos(x)(\sin(x)-\ln{(\lvert \sec(x) + \tan(x) \rvert)}+\cos(x)\sin(x)\end{equation}</p>
+</body>
+</html>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 const Projects = () => {
@@ -41,6 +41,29 @@ const Projects = () => {
                         </li>
                         <li>
                             <a href="https://github.com/FPyC639/Kaggle_Titanic_Artifical_Intelligence">Kaggle Titanic Artifical Intelligence</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <p>
+                        Differential Equations and Advanced Calculus
+                    </p>
+                </div>
+                <div className="col">
+                    <ul>
+                        <li>
+                            <a href="\Chapter4Section6VOPNumber1.html"> Variation of Parameters Example 1</a>
+                        </li>
+                        <li>
+                            <a href="\Chapter4Section6VOPNumber2.html"> Variation of Parameters Example 2</a>
+                        </li>
+                        <li>
+                            <a href="\Chapter4Section6VOPNumber3.html"> Variation of Parameters Example 3</a>
+                        </li>
+                        <li>
+                            <a href="\Chapter8Section2Number1.html"> Systems of Differential Equations</a>
                         </li>
                     </ul>
                 </div>
