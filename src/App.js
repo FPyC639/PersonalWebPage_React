@@ -12,6 +12,7 @@ import S1 from './Components/S1';
 import S2 from './Components/S2';
 import S3 from './Components/S3';
 import S4 from './Components/S4';
+import S5 from './Components/S5';
 
 function App() {
     return (
@@ -30,10 +31,12 @@ function App() {
                     <Route path="/S2" element={<S2 />} />
                     <Route path="/S3" element={<S3 />} />
                     <Route path="/S4" element={<S4 />} />
+                    <Route path="/S5" element={<S5 />} />
                     <Route path="/Chapter4Section6VOPNumber1.pdf" />
                     <Route path="/Chapter4Section6VOPNumber2.pdf" />
                     <Route path="/Chapter4Section6VOPNumber3.pdf" />
                     <Route path="/Chapter8Section2Number1.pdf" />
+                    <Route path="/CalculatingLimits.pdf" />
                 </Routes>
             </Router>
         </>
