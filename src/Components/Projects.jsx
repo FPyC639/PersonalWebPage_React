@@ -65,6 +65,9 @@ const Projects = () => {
                         <li>
                             <a href="/S4"> Systems of Differential Equations</a>
                         </li>
+                        <li>
+                            <a href="/S5">Limits</a>
+                        </li>
                     </ul>
                 </div>
             </div>
