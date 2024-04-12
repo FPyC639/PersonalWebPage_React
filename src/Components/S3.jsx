@@ -2,7 +2,7 @@ import React from 'react';
 import PDFViewer from './PDFViewer';
 
 const S3 = () => {
-    const html1 = './Chapter4Section6VOPNumber3.html';
+    const html1 = './Chapter4Section6VOPNumber3.pdf';
 
     return (
         <div className="HTML1" >

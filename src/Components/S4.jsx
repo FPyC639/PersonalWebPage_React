@@ -3,7 +3,7 @@ import PDFViewer from './PDFViewer';
 
 
 const S4 = () => {
-    const pdf =  './Chapter8Section2VOPNumber1.pdf';
+    const pdf =  './Chapter8Section2Number1.pdf';
 
     return (
         <div className="HTML1" >
