@@ -1,12 +1,12 @@
 import React from 'react';
-import HTMLViewer from './HTMLViewer';
+import PDFViewer from './PDFViewer';
 
 const S3 = () => {
-    const html1 = '../Chapter4Section6VOPNumber3.html';
+    const html1 = './Chapter4Section6VOPNumber3.html';
 
     return (
         <div className="HTML1" >
-            <HTMLViewer htmlUrl={html1} />
+            <PDFViewer pdfUrl={html1} />
         </div>
     );
 };
