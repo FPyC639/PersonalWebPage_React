@@ -71,6 +71,20 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
+            <div className="row">
+                <div className="col">
+                    <p>
+                        Organic Chemistry MCAT Flashcards
+                    </p>
+                </div>
+                <div className="col">
+                    <ul>
+                        <li>
+                            <a href="/S6">Organic Chemistry Flashcards Sample</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
   );
 }
