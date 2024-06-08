@@ -14,6 +14,7 @@ import S3 from './Components/S3';
 import S4 from './Components/S4';
 import S5 from './Components/S5';
 import S6 from './Components/S6';
+import IndeedURL_Converter from './Components/IndeedURL_Converter';
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path="/S4" element={<S4 />} />
                     <Route path="/S5" element={<S5 />} />
                     <Route path="/S6" element={<S6 />} />
+                    <Route path="/IndeedURL_Converter" element={<IndeedURL_Converter /> } />
                     <Route path="/Chapter4Section6VOPNumber1.pdf" />
                     <Route path="/Chapter4Section6VOPNumber2.pdf" />
                     <Route path="/Chapter4Section6VOPNumber3.pdf" />
